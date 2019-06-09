@@ -21,7 +21,7 @@ export default [
     ]
   },
   {
-    label: 'Are you measuring success ...',
+    label: 'Are you measuring success through engagemente/vanity proxy metrics?',
     options: [
       {
         label: 'Yes',
@@ -37,11 +37,35 @@ export default [
     options: [
       {
         label: 'Yes',
-        value: 'FIND_THE_BEST_STRATEGY',
       },
       {
         label: 'No',
         value: 'FIND_THE_BEST_STRATEGY',
+      },
+    ]
+  },
+  {
+    label: 'Have you run a lift study before?',
+    options: [
+      {
+        label: 'Yes',
+      },
+      {
+        label: 'No',
+        value: 'UNDERSTAND_RESULTS_FACEBOOK_IS_DRIVING_YOU',
+      },
+    ]
+  },
+  {
+    label: 'Have you done any significant change in your strategy after you run?',
+    options: [
+      {
+        label: 'Yes',
+        value: 'UNDERSTAND_RESULTS_FACEBOOK_IS_DRIVING_YOU',
+      },
+      {
+        label: 'No',
+        value: 'UNDERSTAND_RESULTS_FACEBOOK_IS_DRIVING_YOU',
       },
     ]
   },
