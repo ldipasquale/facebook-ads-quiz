@@ -1,0 +1,40 @@
+@import "~stylesheets/variables/index.sass"
+
+.fb
+  &__Question
+    &__Title
+      margin-bottom: $spacingMedium
+
+      &__Number
+        margin-right: $spacingSmall
+        color: $colorGray
+
+    &__Options
+      margin-bottom: $spacingXLarge
+
+    &__Option
+      width: 220px
+      border: 1px solid $colorLightGray
+      padding: $spacingSmall $spacingMedium
+      margin-bottom: $spacingXSmall
+      border-radius: $spacingXHuge
+      font-size: $fontSizeSmall
+      display: flex
+      align-items: center
+      cursor: pointer
+
+      &--selected
+        border-color: $colorBlue
+
+      &--selected &__Tick
+        opacity: 1
+
+      &__Tick
+        opacity: 0
+        width: 11px
+        height: 8px
+        background: url('/public/tick@2x.png') no-repeat
+        background-size: cover
+        margin-right: $spacingStandard
+
+

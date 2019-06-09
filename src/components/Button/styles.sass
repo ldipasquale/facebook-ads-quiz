@@ -1,0 +1,17 @@
+@import "~stylesheets/variables/index.sass"
+
+.fb
+  &__Button
+    cursor: pointer
+    letter-spacing: $letterSpacingLarge
+    background: $colorGreen
+    color: $colorWhite
+    padding: $spacingStandard $spacingXLarge
+    text-transform: uppercase
+    display: inline-block
+    border-radius: $spacingXLarge
+    transition: all .2s
+
+    &--disabled
+      opacity: 0.5
+      pointer-events: none
